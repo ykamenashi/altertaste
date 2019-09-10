@@ -1,15 +1,17 @@
 # altertaste
-AlterTaste: lightweight Database health-checker
+AlterTaste: lightweight database health-checker proxy, with HTTP URL Interface
 
 ## Concept
 * [x] docker container
 * [x] single endpoint
 * [x] simple HTTP interface
 * [x] interoperability
-* [x] public cloud support(currently: for GCP)
+* [x] public cloud support(currently: only for GCP)
 
 ## What is this
-* HTTP-to-SELECT proxy server for simplify health check for DBs
+* `HTTP-to-SELECT SQL` proxy server for simplify health check for DBs
+* Don't have setting interface itself.
+  * Configure by GCP-Project-ServiceAccount & Request query URL strings.
 
 ## health-check URL example
 
