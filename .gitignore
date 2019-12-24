@@ -1,2 +1,6 @@
 go/pkg/darwin_amd64/github.com
 go/src/github.com
+
+node/node_modules
+.idea
+
